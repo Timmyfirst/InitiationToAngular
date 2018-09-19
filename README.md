@@ -1,2 +1,2 @@
-# Initiation_to_angular
+# Initiation to angular
 First project with angular
