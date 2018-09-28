@@ -9,6 +9,7 @@
                        [appareilStatus]="appareil.status"></app-appareil>
       </ul>
       <button class="btn btn-success" [disabled]="!isAuth" (click)="onAllumer()">Tout allumer</button>
+      <p>Mise à jour le : {{ lastUpdate | async | date: 'short' | uppercase }}</p>
     </div>
   </div>
 </div>
